@@ -18,3 +18,33 @@ self.addEventListener('install', function (e) {
     })
   )
 });
+
+self.addEventListener('activate', function (e) {
+  e.waitUntil(
+    caches.keys().then(function (keylist) {
+      let cacheKeeplist = keylist.filter(function (key) {
+        return key.indexOf(APP_PREFIX);
+      });
+      cacheKeeplist.push(CACHE_NAME);
+
+      return Promise.all(
+        keyList.map(function (key, i) {
+          if (cacheKeeplist.indexOf(key) === -1) {
+            console.log('deleting caache : ' + keyList[i]);
+            return caches.delete(keyList[i]);
+          }
+        })
+      );
+    })
+  );
+});
+
+self.addEventListener('fetch', function (e) {
+  console.log('fetch request : ' + e.request.url)
+  e.respondWith(
+    caches.match(e.request).then(function (request) {
+        return request || fetch(e.request);
+
+    })
+  )
+})
