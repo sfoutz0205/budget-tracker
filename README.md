@@ -20,7 +20,7 @@ https://limitless-coast-99338.herokuapp.com/
 
 ## Instructions ##
 
-* Enter a description of the transaction, and the amount into the input fields and press either 'add funds' or 'subtract funds' based on your needs. The transaction will be logged and added to the visual graph below. 
+* Enter a description of the transaction, and the amount into the input fields and press either 'add funds' or 'subtract funds'. The transaction will be logged and added to the visual graph below, and an updated total will appear at the top of the screen.
 * All transactions will be saved and remain in the application despite refreshing or exiting the application. 
 * When the link above is visited in the browser, a ➕ inside a circle should also appear in the URL address bar. Click to download the application to your home screen.
 * Any transactions completed while offline will be automatically be added and saved upon connecting to the network. 
