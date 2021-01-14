@@ -12,17 +12,26 @@ This is an application created to track your budget by allowing you to input tra
 
 ## App Demo ##
 
-<img width="792" alt="Screen Shot 2021-01-04 at 4 08 03 PM" src="https://user-images.githubusercontent.com/68661461/103589039-bd750580-4ea7-11eb-8213-710067800447.png">
+<img width="827" alt="Screen Shot 2021-01-13 at 6 52 48 PM" src="https://user-images.githubusercontent.com/68661461/104533981-a4b7ce80-55d0-11eb-803e-f93bea584be8.png">
 
-### Link Application Deployed Via Heroku ###
+<img width="846" alt="Screen Shot 2021-01-13 at 6 52 33 PM" src="https://user-images.githubusercontent.com/68661461/104533958-979adf80-55d0-11eb-80bb-8736536feab0.png">
 
-https://limitless-coast-99338.herokuapp.com/
+### Application Deployed Via Heroku ###
+
+https://guarded-bayou-27523.herokuapp.com/
 
 ## Instructions ##
 
-* Enter a description of the transaction, and the amount into the input fields and press either 'add funds' or 'subtract funds'. The transaction will be logged and added to the visual graph below, and an updated total will appear at the top of the screen.
-* All transactions will be saved and remain in the application despite refreshing or exiting the application. 
-* When the link above is visited in the browser, a ➕ inside a circle should also appear in the URL address bar. Click to download the application to your home screen.
-* Any transactions completed while offline will be automatically be added and saved upon connecting to the network. 
+* Click the Login/Signup link in the navigation bar to create an account with a username, your email address, and a password.
+* Type any word or phrase into the search bar to return a page of related books. You may save any book to your user profile by clicking 'Save this book!'.
+* To view your saved books, navigate to the 'See Your Books' page in the navigation bar.
+* Upon logging out and logging back in, all saved books will remain in your profile. To delete a book from your profile, simply click the 'Delete this book!' button.
+
+### Run Locally ###
+
+* Clone the source code to your local environment.
+* To install - npm install
+* To run the application - npm start
+
 
   
