@@ -12,26 +12,12 @@ This is an application created to track your budget by allowing you to input tra
 
 ## App Demo ##
 
-<img width="827" alt="Screen Shot 2021-01-13 at 6 52 48 PM" src="https://user-images.githubusercontent.com/68661461/104533981-a4b7ce80-55d0-11eb-803e-f93bea584be8.png">
-
-<img width="846" alt="Screen Shot 2021-01-13 at 6 52 33 PM" src="https://user-images.githubusercontent.com/68661461/104533958-979adf80-55d0-11eb-80bb-8736536feab0.png">
+<img width="1069" alt="Screen Shot 2021-01-17 at 1 04 28 PM" src="https://user-images.githubusercontent.com/68661461/104854571-aaf5c580-58c4-11eb-802a-f1d1d6210023.png">
 
 ### Application Deployed Via Heroku ###
 
-https://guarded-bayou-27523.herokuapp.com/
+https://limitless-coast-99338.herokuapp.com/
 
-## Instructions ##
-
-* Click the Login/Signup link in the navigation bar to create an account with a username, your email address, and a password.
-* Type any word or phrase into the search bar to return a page of related books. You may save any book to your user profile by clicking 'Save this book!'.
-* To view your saved books, navigate to the 'See Your Books' page in the navigation bar.
-* Upon logging out and logging back in, all saved books will remain in your profile. To delete a book from your profile, simply click the 'Delete this book!' button.
-
-### Run Locally ###
-
-* Clone the source code to your local environment.
-* To install - npm install
-* To run the application - npm start
 
 
   
